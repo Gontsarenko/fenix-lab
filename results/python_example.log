@@ -1,0 +1,13 @@
+No path facts, but ideal recovery:
+V before: 6.123233995736766e-17
+Pguess: 0.5
+V after: 1.0
+
+Recovery strategies, N=100:
+none           C=0.000000 F=0.500000
+individual     C=0.132620 F=0.566310
+concentrated   C=0.803803 F=0.901902
+collective     C=0.960000 F=0.980000
+ideal          C=1.000000 F=1.000000
+
+Unknown input phase, ideal recovery fidelity: 1.0

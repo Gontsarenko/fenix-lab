@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-03T07:40:40.503967+00:00",
+  "software": "FENIX Lab 1.1.0 (numerical core 1.0.0)",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pytest": "9.0.2",
+    "playwright": "1.57.0"
+  },
+  "results": {
+    "pytest": {
+      "returncode": 0,
+      "passed": true
+    },
+    "i18n_runtime": {
+      "returncode": 0,
+      "passed": true
+    },
+    "cross_language": {
+      "returncode": 0,
+      "passed": true
+    },
+    "js_self_tests": {
+      "returncode": 0,
+      "passed": true
+    }
+  },
+  "all_executed_suites_passed": true,
+  "browser_test_report": "browser_i18n.json and browser_smoke.json are from separately executed optional UI tests."
+}

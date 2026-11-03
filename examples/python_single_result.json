@@ -1,0 +1,282 @@
+{
+  "software": "FENIX Lab",
+  "version": "1.0.0",
+  "source": "Gontsarenko, Decoherence without facts, draft v1.4, 2026-11-02",
+  "result": {
+    "mode": "single",
+    "parameters": {
+      "eta": 0.0,
+      "phi": 3.141592653589793,
+      "theta": 0.0,
+      "basis": "z",
+      "polar": 0.0,
+      "azimuth": 0.0,
+      "readout_error": 0.0,
+      "phase_std": 0.0,
+      "correction": "calibrated"
+    },
+    "input": {
+      "visibility": 1.0,
+      "fidelity": 1.0,
+      "bloch": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "purity": 1.0,
+      "rho": [
+        [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ]
+      ]
+    },
+    "system": {
+      "visibility": 6.123233995736766e-17,
+      "fidelity": 0.5,
+      "bloch": [
+        0.0,
+        6.123233995736766e-17,
+        0.0
+      ],
+      "purity": 0.5,
+      "rho": [
+        [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            -3.061616997868383e-17
+          ]
+        ],
+        [
+          [
+            0.0,
+            3.061616997868383e-17
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ]
+      ]
+    },
+    "environment": {
+      "knowledge_reported": 0.0,
+      "p_guess_reported": 0.5,
+      "information_reported_bits": 0.0,
+      "knowledge_ideal_chosen": 0.0,
+      "helstrom_knowledge_ideal": 0.0,
+      "p_guess_helstrom_ideal": 0.5,
+      "conditional_states": [
+        [
+          [
+            [
+              0.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.0
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              0.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "equal_prior_calibration": true
+    },
+    "corrected": {
+      "visibility": 1.0,
+      "fidelity": 1.0,
+      "bloch": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "purity": 1.0,
+      "rho": [
+        [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.5,
+            -0.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ]
+      ]
+    },
+    "outcomes": [
+      {
+        "reported_label": "+",
+        "probability": 0.5,
+        "path0_given_label_equal_priors": 0.5,
+        "correction_radians": 0.0,
+        "conditional_rho_unnormalized": [
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ]
+        ],
+        "corrected_rho_unnormalized": [
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ]
+        ]
+      },
+      {
+        "reported_label": "-",
+        "probability": 0.5,
+        "path0_given_label_equal_priors": 0.5,
+        "correction_radians": -3.141592653589793,
+        "conditional_rho_unnormalized": [
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              -0.25,
+              -3.061616997868383e-17
+            ]
+          ],
+          [
+            [
+              -0.25,
+              3.061616997868383e-17
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ]
+        ],
+        "corrected_rho_unnormalized": [
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.25,
+              0.0
+            ],
+            [
+              0.25,
+              0.0
+            ]
+          ]
+        ]
+      }
+    ],
+    "bound_visibility_equal_superposition": 1.0,
+    "assumptions": [
+      "one witness",
+      "independent initial S and E",
+      "controlled phase",
+      "all reported outcomes retained",
+      "phase-only correction",
+      "symmetric classical label errors",
+      "independent Gaussian feed-forward phase noise"
+    ]
+  }
+}

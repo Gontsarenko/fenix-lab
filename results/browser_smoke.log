@@ -1,0 +1,32 @@
+{
+  "checks": 23,
+  "passed": 23,
+  "details": [
+    "live browser self-tests",
+    "no facts but full recovery",
+    "path readout",
+    "Y counterexample",
+    "custom axis",
+    "phase-sign regression",
+    "ignore measurement outcome",
+    "JSON export",
+    "CSV export",
+    "many-witness default",
+    "bad CNOT chain loses",
+    "crossover",
+    "V versus fidelity for |0>",
+    "import N and k beyond previous slider maximum",
+    "Monte Carlo",
+    "stale Monte Carlo cleared",
+    "invalid input rejected",
+    "model and tests tab",
+    "responsive layout 390",
+    "responsive layout 768",
+    "responsive layout 1280",
+    "no JavaScript exceptions",
+    "no network requests"
+  ],
+  "method": "Chromium, self-contained HTML via set_content; desktop and mobile viewports",
+  "network_requests": [],
+  "page_errors": []
+}

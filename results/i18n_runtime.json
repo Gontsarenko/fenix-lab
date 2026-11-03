@@ -1,0 +1,59 @@
+{
+  "checks": 13,
+  "passed": 13,
+  "method": "Node VM with mocked location, localStorage and DOM",
+  "results": [
+    {
+      "name": "Default English",
+      "pass": true
+    },
+    {
+      "name": "Stored Russian choice",
+      "pass": true
+    },
+    {
+      "name": "Unknown stored value ignored",
+      "pass": true
+    },
+    {
+      "name": "Explicit English URL wins",
+      "pass": true
+    },
+    {
+      "name": "Explicit Russian URL wins",
+      "pass": true
+    },
+    {
+      "name": "URL still works when storage is denied",
+      "pass": true
+    },
+    {
+      "name": "Denied storage defaults safely",
+      "pass": true
+    },
+    {
+      "name": "Choice is written and reused on next initialisation",
+      "pass": true
+    },
+    {
+      "name": "Switching works when storage is denied",
+      "pass": true
+    },
+    {
+      "name": "Catalog fallback is deterministic",
+      "pass": true
+    },
+    {
+      "name": "Unsupported language is rejected",
+      "pass": true
+    },
+    {
+      "name": "Core error text is translated, parameter bounds retained",
+      "pass": true
+    },
+    {
+      "name": "Canonical export leaves numbers and keys intact",
+      "pass": true
+    }
+  ]
+}

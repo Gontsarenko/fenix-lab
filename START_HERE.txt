@@ -1,0 +1,10 @@
+FENIX Lab 1.1 — English / Russian
+
+Open index.html in a browser. English is the default; use EN / RU in the header.
+No installation, account or API key is needed for the browser calculator.
+
+Start with either use-case button, then change a parameter.
+Guide: README.md. Mathematical assumptions: docs/MODEL_NOTES_EN.md.
+
+For publication, upload this folder's CONTENTS, not the ZIP archive.
+The package itself does not upload files or enable GitHub Pages.

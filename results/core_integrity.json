@@ -1,0 +1,15 @@
+{
+  "source_archive": "FENIX_GitHub_ready.zip (v1.0 package)",
+  "files": {
+    "fenix_core.py": {
+      "v1_0_sha256": "a2896977629d5481f760698a7444dc624b1945352aaf018858d2d5b58d168809",
+      "v1_1_sha256": "a2896977629d5481f760698a7444dc624b1945352aaf018858d2d5b58d168809",
+      "unchanged": true
+    },
+    "fenix_core.js": {
+      "v1_0_sha256": "333cd9836d12a2dff45a253a3fd904dbd09089ce9c370838c6f4c72e72099f22",
+      "v1_1_sha256": "333cd9836d12a2dff45a253a3fd904dbd09089ce9c370838c6f4c72e72099f22",
+      "unchanged": true
+    }
+  }
+}

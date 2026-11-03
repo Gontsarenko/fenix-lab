@@ -1,0 +1,26 @@
+{
+  "software": "FENIX Lab",
+  "version": "1.0.0",
+  "active_tab": "single",
+  "ui_state": {
+    "s-eta": "0",
+    "s-phi": "180",
+    "s-basis": "z",
+    "s-theta": "0",
+    "s-polar": "45",
+    "s-azimuth": "30",
+    "s-eps": "0",
+    "s-sigma": "0",
+    "s-policy": "calibrated",
+    "m-n": "100",
+    "m-eta": "0.6",
+    "m-eps": "1",
+    "m-gate": "0.1",
+    "m-parity": "2",
+    "m-sigma": "0",
+    "m-state": "plus",
+    "m-k": "10",
+    "mc-shots": "20000",
+    "mc-seed": "20261102"
+  }
+}

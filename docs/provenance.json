@@ -1,0 +1,25 @@
+{
+  "source_title": "Decoherence without facts",
+  "source_version": "v1.4",
+  "source_file": "decoherence_without_facts_v1.4.pdf",
+  "source_sha256": "736a70c697055c3d7740e3954307642bc154ff08d1d2e9a027d48643e04e4f8d",
+  "software_version": "1.1.0",
+  "implementation": "New implementation; original PDF and author scripts unchanged.",
+  "extensions": [
+    "classical symmetric readout error for any projective direction",
+    "independent target-X after CNOT",
+    "separate collective parity protocol error",
+    "Gaussian phase noise after correction"
+  ],
+  "numerical_core_version": "1.0.0",
+  "release_changes": [
+    "English-default interface with complete EN/RU catalogs",
+    "Plain-language introduction and two preset-linked use cases",
+    "Bilingual documentation and additional UI regression tests",
+    "Numerical cores preserved byte-for-byte from v1.0.0"
+  ],
+  "numerical_core_sha256": {
+    "fenix_core.py": "a2896977629d5481f760698a7444dc624b1945352aaf018858d2d5b58d168809",
+    "fenix_core.js": "333cd9836d12a2dff45a253a3fd904dbd09089ce9c370838c6f4c72e72099f22"
+  }
+}

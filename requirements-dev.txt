@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=7,<10
+# Optional independent binomial cross-check; not needed by the core.
+scipy>=1.10,<2
